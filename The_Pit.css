@@ -221,6 +221,11 @@ a:hover{
   max-height: 360px;
 }
 
+#ABT_P{
+  font-size: 30pt;
+  text-align: center;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
