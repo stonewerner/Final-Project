@@ -3,16 +3,17 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
+  padding-top:0;
+  padding-bottom:0;
+  color: black;
 }
 
 /* NAVBAR TIME FOR THE BOYS
 -------------------------------------------------------------------*/
 .navbar {
-  overflow: hidden;
+  overflow: visible;
   background-color: #000000;
+  top:0;
 }
 
 .navbar a {
@@ -20,14 +21,11 @@ body {
   font-size: 16px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 25px;
   text-decoration: none;
 }
 
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
+/*   REMOVING THIS TO SEE IF IT INTERFERES WITH THE W3 DROPDOWN
 
 .dropdown .dropbtn {
   font-size: 16px;
@@ -40,10 +38,14 @@ body {
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+*/
+.navbar a:hover {
   background-color:#337AB7 ;
   text-decoration: none;
 }
+
+
+/*This is FROM the NOT W3 dropdown
 
 .dropdown-content {
   display: none;
@@ -51,27 +53,12 @@ body {
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
+  z-index: 30;
 }
 
 
+
+*/
 
 #NAVBAR_LINK{
   color: white;
@@ -81,8 +68,53 @@ body {
 header{
   position: sticky;
   top:0;
+  z-index:1000;
+}
+
+.jumbotron{
+  text-align: center;
+  color:#333;
+  font-family: arial black;
+  font-size: 30pt;
+}
+
+/*THIS IS FROM W3 SCHOOL TRY IT DEMO*/
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin-right: 200px;
+}
+
+.dropdown {
+  position: relative;
+  display:block; /*INLINE-BLOCK???*/
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1000;
 }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #337AB7;}
+/*THE ABOVE WAS FROM W3 SCHOOLS*/
 
 
 
