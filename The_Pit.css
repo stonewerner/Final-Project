@@ -231,6 +231,11 @@ a:hover{
   max-height: 200px;
 }
 
+#PALI{
+  max-width: 647px;
+  max-height: 364px;
+}
+
 #ABT_P{
   font-size: 30pt;
   color: white;
