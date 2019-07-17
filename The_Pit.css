@@ -233,8 +233,31 @@ a:hover{
 
 #ABT_P{
   font-size: 30pt;
-  text-align: center;
+  color: white;
+  z-index: 100;
+
+
 }
+
+
+#ABT_P span{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  min-width: 683px;
+}
+
+#WAVE_BACK{
+  background-image: url("https://live.staticflickr.com/4135/4895799536_deca6ff3f5_b.jpg");
+  min-height: 683px;
+  max-height: 683px;
+  min-width: 1024px;
+  max-width: 1024px;
+  position: relative;
+
+}
+
 
 
 /* RESPONSIVE CSS
