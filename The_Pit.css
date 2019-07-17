@@ -25,40 +25,12 @@ body {
   text-decoration: none;
 }
 
-/*   REMOVING THIS TO SEE IF IT INTERFERES WITH THE W3 DROPDOWN
-
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-*/
 .navbar a:hover {
   background-color:#337AB7 ;
   text-decoration: none;
 }
 
 
-/*This is FROM the NOT W3 dropdown
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 30;
-}
-
-
-
-*/
 
 #NAVBAR_LINK{
   color: white;
@@ -76,6 +48,9 @@ header{
   color:#333;
   font-family: arial black;
   font-size: 30pt;
+  background-image: url("The_Pit_logo.png");
+  background-repeat: no-repeat;
+
 }
 
 /*THIS IS FROM W3 SCHOOL TRY IT DEMO*/
