@@ -221,6 +221,16 @@ a:hover{
   max-height: 360px;
 }
 
+#SW_ALASKA{
+  max-width: 672px;
+  max-height: 504px;
+}
+
+#HOLBERTON_LOGO{
+  max-width: 640px;
+  max-height: 200px;
+}
+
 #ABT_P{
   font-size: 30pt;
   text-align: center;
